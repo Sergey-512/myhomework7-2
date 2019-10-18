@@ -1,0 +1,71 @@
+html, body{
+	height: 100%;
+	width: 100%;
+}
+
+/*back image*/
+.main-img{
+	background-image: url("../images/cosmos.png");
+	width: 100%;
+	height: 100%;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+/*end back image*/
+
+
+.stars{
+	display: block;
+	position: fixed;
+	background-color: black;
+	width: 100%;
+	height: 100vh;
+}
+.star {
+	width: 2px;
+	height: 2px;
+	background: #fff;
+	box-shadow: 0 0 3px #fff;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+}
+
+.ni-star-1 {
+	position: absolute;
+	width: 2px;
+	height: 2px;
+	left: 75%;
+	top: 82%;
+	animation: twinkle 0.5s alternate infinite;
+	animation-delay: 1.0933333333s;
+}
+
+.ni-star-2 {
+	width: 2px;
+	height: 2px;
+	left: 9%;
+	top: 7%;
+	animation: twinkle 0.5s alternate infinite;
+	animation-delay: 0.7777777778s;
+}
+
+.ni-star-3{
+	width: 2px;
+	height: 2px;
+	left: 25%;
+	top: 14%;
+	animation: twinkle 0.5s alternate infinite;
+	animation-delay: 0.56s;
+}
+
+.ni-star-4{
+	width: 2px;
+	height: 2px;
+	left: 60%;
+	top: 52%;
+	animation: twinkle 0.5s alternate infinite;
+	animation-delay: 0.8666666667s;
+}
